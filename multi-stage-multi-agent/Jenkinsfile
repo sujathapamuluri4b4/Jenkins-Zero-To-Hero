@@ -6,7 +6,8 @@ pipeline {
         docker { image 'maven:3.8.1-adoptopenjdk-11' }
       }
       #test jenkins
-            steps {
+      #test jenkins 2
+                  steps {
         sh 'mvn --version'
       }
     }
